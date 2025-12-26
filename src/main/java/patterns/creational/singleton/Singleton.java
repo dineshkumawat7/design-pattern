@@ -17,4 +17,8 @@ public class Singleton {
         }
         return instance;
     }
+
+    public void show(){
+        System.out.println("Hello from Singleton design pattern.");
+    }
 }
